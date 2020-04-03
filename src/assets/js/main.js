@@ -1,1 +1,4 @@
-console.log(1)
+const burger = document.querySelector('.burger')
+burger.onclick = () => {
+    burger.classList.toggle('active')
+}
