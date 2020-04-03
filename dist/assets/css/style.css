@@ -1,0 +1,93 @@
+.button {
+    margin-top: 50px;
+    width: 170px;
+    height: 53px;
+    border-radius: 3px;
+    border: none;
+    padding: 0;
+    background-color: #998675;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: .875rem;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 3fr 0.2fr;
+    justify-items: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100vh;
+    background: url("/assets/img/bg_main.jpg") center center/cover no-repeat;
+    color: #ffffff;
+}
+
+.main .header {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr;
+}
+
+.main .menu {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 1.25rem;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.main .menu__link {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: .875rem;
+}
+
+.main .menu__icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.25rem;
+    margin-left: 2.5rem;
+}
+
+.main .menu__icons .icons_action {
+    cursor: pointer;
+}
+
+.main-block {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    font-family: Raleway;
+}
+
+.main-subtitle {
+    font-size: 2.25rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.main-title {
+    font-size: 3.125rem;
+    font-weight: 700;
+    margin: 20px 0 20px;
+}
+
+.main-text {
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width: 850px) {
+    html {
+        font-size: 13.5px;
+    }
+}

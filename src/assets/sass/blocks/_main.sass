@@ -1,0 +1,49 @@
+.main
+    display: grid
+    grid-template-columns: 1fr
+    grid-template-rows: 0.5fr 3fr 0.2fr
+    justify-items: center
+    align-items: center
+    height: 100vh
+    background: url('/assets/img/bg_main.jpg') center center/cover no-repeat
+    color: $white
+    .header
+        display: grid
+        grid-auto-flow: column
+        grid-template-columns: 1fr
+    .menu
+        display: grid
+        grid-auto-flow: column
+        grid-gap: 1.25rem
+        align-items: center
+        &__item
+        &__link
+            text-decoration: none
+            color: $white
+            font-family: 'Montserrat', sans-serif
+            font-weight: 300
+            font-size: .875rem
+        &__icons
+            display: grid
+            grid-template-columns: 1fr 1fr
+            grid-gap: 1.25rem
+            margin-left: 2.5rem
+            .icons_action
+                cursor: pointer
+    &-block
+        align-items: center
+        text-align: center
+        font-family: Raleway
+    &-subtitle
+        font-size: 2.25rem
+        font-weight: 500
+        margin: 0
+    &-title
+        font-size: 3.125rem
+        font-weight: 700
+        margin: 20px 0 20px
+    &-text
+        font-family: 'Montserrat', sans-serif
+        
+        
+    
